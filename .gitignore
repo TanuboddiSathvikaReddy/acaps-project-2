@@ -1,0 +1,27 @@
+# Python (backend)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+dist/
+build/
+
+# Node (frontend)
+node_modules/
+frontend/dist/
+.vite/
+*.log
+npm-debug.log*
+
+# Env / local overrides
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
